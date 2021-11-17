@@ -1,4 +1,4 @@
-const tracer = require('dd-trace').init()
+// const tracer = require('dd-trace').init()
 const express = require('express')
 const connectDB = require('./config/db')
 
@@ -19,6 +19,6 @@ app.use('/api/profile', require('./routes/api/profile'))
 app.use('/api/posts', require('./routes/api/posts'))
 
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 8080
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
