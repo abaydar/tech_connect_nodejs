@@ -29,7 +29,8 @@ export default function profileReducer(state = initalState, action) {
             return {
                 ...state,
                 error: payload,
-                loading: false
+                loading: false,
+                // profile: null
             };
         case CLEAR_PROFILE:
             return {
