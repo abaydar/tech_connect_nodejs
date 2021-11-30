@@ -1,10 +1,3 @@
-// const tracer = require('dd-trace')
-// tracer.init({
-//     ingestion: {
-//       // Any traces started will be sampled at 90.00% with a rate limit of 100 per second
-//       sampleRate: 0.9000
-//     }
-//   })
 const express = require('express')
 const connectDB = require('./config/db')
 
