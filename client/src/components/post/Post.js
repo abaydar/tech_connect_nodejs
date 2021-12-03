@@ -11,7 +11,7 @@ const Post = ({ getPost, post: { post, loading }, match }) => {
     
     return (
         <div>
-            
+            post
         </div>
     )
 }

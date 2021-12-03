@@ -99,7 +99,7 @@ export const addPost = formData => async dispatch => {
 }
 
 //Get post
-export const getPost = (id) => async dispatch => {
+export const getPost = id => async dispatch => {
     try {
         const res = await axios.get(`api/posts/${id}`)
 
